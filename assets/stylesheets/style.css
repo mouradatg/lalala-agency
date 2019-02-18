@@ -1,0 +1,112 @@
+ /* Elément principaux de la page */
+ body {
+ 	background-color: #fff; 
+ 	font-family: 'Exo', sans-serif;
+ 	color: #000000; 
+ }
+
+ #bloc_page {
+ 	width: 900px; 
+ 	margin: auto;
+ }
+
+ /* Header */
+#haut {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+#img_logo img {
+	width: 70px; 
+	height: 70px; 
+}
+
+#titre-principal {
+	display: flex;
+	flex-direction: column;
+}
+
+#img_logo {
+	display: flex;
+	flex-direction: row; 
+	align-items: baseline;
+}
+
+/* Liens de navigation */
+
+nav a {
+	color: black; 
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black; 
+	border-bottom: 3px solid black; 
+	text-decoration: none;
+}
+
+/* Premiere partie haut */
+#text_presentation {
+	display: flex;
+	justify-content: space-between;
+}
+
+#text-page {
+	margin-top: 10%; 
+}
+
+/* Danger */
+#texte_danger {
+	text-align: center;
+	margin-bottom: 20px; 
+}
+
+/* Partie projets */ 
+.card img {
+	width: 100%; 
+	height: 110px; 
+}
+
+.card h1 {
+	text-transform: uppercase;
+	font-size: 0.8em; 
+}
+
+.card h2 {
+	text-transform: uppercase;
+	font-size: 1em; 
+}
+
+#nav_projects {
+	margin-bottom: 20px; 
+}
+
+#projets {
+	margin-bottom: 20px; 
+}
+
+/* About me */
+
+#a_propos {
+	display: flex;	
+}
+
+#text_about {
+	margin-left: 25px; 
+	margin-top: 15%; 
+}
+
+#text_apropos {
+	text-align: justify;
+}
+
+/* Footer */
+footer {
+	background-color: #2b2a2c;
+	margin-top: 15px; 
+	padding-bottom: 0px; 
+	color: white; 
+	text-align: center;
+}
